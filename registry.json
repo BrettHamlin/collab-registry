@@ -1,0 +1,190 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-03-04T00:00:00Z",
+  "pipelines": [
+    {
+      "name": "specify",
+      "description": "Create or update the feature specification from a natural language feature description",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/specify.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/specify.tar.gz"
+    },
+    {
+      "name": "clarify",
+      "description": "Orchestrator-compatible spec clarification using AskUserQuestion for signal emission",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/clarify.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/clarify.tar.gz"
+    },
+    {
+      "name": "plan",
+      "description": "Execute the implementation planning workflow using the plan template to generate design artifacts",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/plan.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/plan.tar.gz"
+    },
+    {
+      "name": "tasks",
+      "description": "Generate an actionable, dependency-ordered tasks.md for the feature based on available design artifacts",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/tasks.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/tasks.tar.gz"
+    },
+    {
+      "name": "analyze",
+      "description": "Perform a non-destructive cross-artifact consistency and quality analysis",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/analyze.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/analyze.tar.gz"
+    },
+    {
+      "name": "implement",
+      "description": "Execute the implementation plan by processing and executing all tasks defined in tasks.md",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/implement.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/implement.tar.gz"
+    },
+    {
+      "name": "run-tests",
+      "description": "General-purpose test suite executor — runs tests and emits pass/fail signal",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/run-tests.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/run-tests.tar.gz"
+    },
+    {
+      "name": "visual-verify",
+      "description": "Browser visual verification — checks DOM structure and visual diff, emits pass/fail signal",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/visual-verify.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/visual-verify.tar.gz"
+    },
+    {
+      "name": "verify-execute",
+      "description": "Verification checklist executor — reads ticket spec, executes checks, emits pass/fail signal",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/verify-execute.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/verify-execute.tar.gz"
+    },
+    {
+      "name": "blindqa",
+      "description": "Blind QA verification against acceptance criteria without prior context",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/blindqa.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/blindqa.tar.gz"
+    },
+    {
+      "name": "spec-critique",
+      "description": "Adversarial specification analysis to find gaps and ambiguities before implementation",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/spec-critique.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/spec-critique.tar.gz"
+    },
+    {
+      "name": "cleanup",
+      "description": "Clean up feature branch or worktree after completion",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/cleanup.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/cleanup.tar.gz"
+    },
+    {
+      "name": "deploy-verify",
+      "description": "Post-deploy smoke verification — polls production URL, runs smoke routes, emits pass/fail signal",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/deploy-verify.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/deploy-verify.tar.gz"
+    },
+    {
+      "name": "pre-deploy-confirm",
+      "description": "Pre-deploy confirmation gate — presents deployment summary, waits for explicit user approval",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/pre-deploy-confirm.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/pre-deploy-confirm.tar.gz"
+    },
+    {
+      "name": "checklist",
+      "description": "Generate a custom checklist for the current feature based on user requirements",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/checklist.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/checklist.tar.gz"
+    },
+    {
+      "name": "code-review",
+      "description": "Code review of implementation changes against spec and acceptance criteria",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/code-review.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/code-review.tar.gz"
+    },
+    {
+      "name": "constitution",
+      "description": "Create or update the project constitution ensuring all dependent templates stay in sync",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/constitution.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/constitution.tar.gz"
+    },
+    {
+      "name": "dependencies",
+      "description": "Resolve and document project dependencies for the current feature",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/dependencies.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/dependencies.tar.gz"
+    },
+    {
+      "name": "taskstoissues",
+      "description": "Convert existing tasks into actionable, dependency-ordered GitHub issues for the feature",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/taskstoissues.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/taskstoissues.tar.gz"
+    },
+    {
+      "name": "iosbuild",
+      "description": "Build and install iOS app on the simulator for Collab verification",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/iosbuild.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/iosbuild.tar.gz"
+    },
+    {
+      "name": "iosverify",
+      "description": "iOS simulator verification for Collab pipeline",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/iosverify.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/iosverify.tar.gz"
+    }
+  ],
+  "packs": [
+    {
+      "name": "default",
+      "description": "Standard development pipeline (specify→plan→tasks→analyze→implement→run-tests→verify)",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/default.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/default.tar.gz"
+    },
+    {
+      "name": "backend",
+      "description": "Backend pipeline variant — spec through implementation and test execution",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/backend.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/backend.tar.gz"
+    },
+    {
+      "name": "verification",
+      "description": "Verification pipeline variant — visual, checklist, and blind QA verification",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/verification.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/verification.tar.gz"
+    },
+    {
+      "name": "frontend-ui",
+      "description": "Frontend UI pipeline variant — spec through implementation with visual verification",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/frontend-ui.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/frontend-ui.tar.gz"
+    },
+    {
+      "name": "deploy",
+      "description": "Deployment pipeline variant — pre-deploy confirmation through post-deploy verification and cleanup",
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/deploy.manifest.json",
+      "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/deploy.tar.gz"
+    }
+  ]
+}
