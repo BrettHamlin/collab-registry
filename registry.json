@@ -11,8 +11,8 @@
     },
     {
       "name": "clarify",
-      "description": "Orchestrator-compatible spec clarification using AskUserQuestion for signal emission",
-      "latestVersion": "1.0.0",
+      "description": "Orchestrator-compatible spec clarification using shared question/answer protocol (interactive or batch)",
+      "latestVersion": "1.2.0",
       "manifestUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/clarify.manifest.json",
       "tarballUrl": "https://github.com/BrettHamlin/collab-registry/releases/latest/download/clarify.tar.gz"
     },
